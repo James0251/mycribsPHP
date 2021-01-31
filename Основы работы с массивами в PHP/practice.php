@@ -108,3 +108,4 @@ $arr = [
     'en' => [1 => 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
 ];
 echo $arr[$lang][$day];
+
