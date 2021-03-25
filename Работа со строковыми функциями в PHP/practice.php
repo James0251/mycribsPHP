@@ -19,8 +19,13 @@ echo ucfirst($str);
 
 //Дана строка 'London'. Сделайте из нее строку 'london'.
 echo "<br/><br/>";
-$str = 'London';
-echo lcfirst($str);
+$str = explode(',', 'Hello, World');
+
+foreach ($str as $value) {
+    $arr[] = lcfirst(strtoupper($value));
+}
+print_r($arr);
+//echo lcfirst(strtoupper($str));
 
 
 //Дана строка 'london is the capital of great britain'. Сделайте из нее строку 'London Is The Capital Of Great Britain'.
